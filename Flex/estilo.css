@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #E5E5E5;
+
+}
+
+header {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menuHeader li {
+    font-size: 16px;
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 10px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.delivery {
+    width: 490px;
+    height: 350px;
+}
+
+.menuPizzas {
+    width: 491px;
+    height: 350px;
+    background-color: white;
+}
+
+.envio {
+    position: absolute;
+    font-size: 24px;
+    color: #FC200C;
+    left: 5%;
+}
+
+.podio {
+    /* position: relative; */
+    font-size: 24px;
+    color: #FC200C;
+    text-align: center;
+}
+
+.topIngre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+p {
+    font-size: 20px;
+    color: #222222;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: 2%;
+    align-items: center;
+    
+}
+
+.navFooter {
+    font-size: 16px;
+    color: white;
+    order: -1;
+    
+
+}
+span{
+    color: white;
+}
+.logoFooter{
+    width: 212px;
+    margin-right: 20px;
+    height: 80px;
+    top: 555px;
+    
+   
+}
