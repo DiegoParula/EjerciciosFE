@@ -27,11 +27,11 @@ form {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   margin: 5% auto;
   width: 60%;
   height: 500px;
-  padding: 20px;
+  padding: 10px;
   background-color: #00669f;
   color: white;
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
@@ -50,8 +50,6 @@ form {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
-  
 }
 
 .formIzq {
@@ -59,9 +57,6 @@ form {
   flex-direction: column;
   margin-right: 60px;
   justify-content: space-between;
-  
-  
- 
 }
 
 .formDerecha {
@@ -104,4 +99,34 @@ footer {
   color: white;
   align-items: center;
   justify-content: center;
+}
+@media (max-width:420px) {
+  form {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    width: 70%;
+    height: 700px;
+    padding: 20px;
+    background-color: #00669f;
+    color: white;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49.0901px;
+  }
+  .form2 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin: 5% auto;
+  }
+  .anadi {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
+  }
 }
